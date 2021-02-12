@@ -5,12 +5,11 @@ setup(
     # Basic package information.
     name = 'zdesk',
     author = 'Brent Woodruff',
-    version = '2.7.1',
+    version = '2.7.1+lumapps1',
     author_email = 'brent@fprimex.com',
     packages = ['zdesk'],
     include_package_data = True,
     install_requires = ['requests', 'six'],
-    setup_requires = ['pytest-runner'],
     tests_require = ['pytest'],
     license='LICENSE.txt',
     url = 'https://github.com/fprimex/zdesk',
